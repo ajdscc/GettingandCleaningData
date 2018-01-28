@@ -2,9 +2,9 @@
 
 ## Identifiers
 
-**subject** The ID of the test subject. 30 volunteers within an age bracket of 19-48 years. Numeric.
+1. **subject** - The ID of the test subject. 30 volunteers within an age bracket of 19-48 years. Numeric.
 
-**activity** The type of activiy performed when the corresponding measurement were taken. Six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed by the volunteers wearing a smartphone (Samsung Galaxy S II) on the waist. Character.
+2. **activity** The type of activiy performed when the corresponding measurement were taken. Six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed by the volunteers wearing a smartphone (Samsung Galaxy S II) on the waist. Character.
 
 ## Measurements Features in the "tidy" data set and summarized by Mean in the  *average* data set. 
 
