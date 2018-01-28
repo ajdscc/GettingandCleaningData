@@ -95,5 +95,5 @@ names(data) <- c("subject",feature_names[col_idx],"activity")
 ##
 
 average <- data %>% group_by(activity, subject) %>% summarise_all(funs(mean))
-write.table(average,"average.txt")
+write.table(average,"average.txt", row.names = FALSE)
 
