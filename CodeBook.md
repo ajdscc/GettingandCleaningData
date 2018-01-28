@@ -6,7 +6,7 @@
 
 **activity** The type of activiy performed when the corresponding measurement were taken. Six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed by the volunteers wearing a smartphone (Samsung Galaxy S II) on the waist. Character.
 
-## List of Measurements Features in the tidy data set *data* and mean summurized in *average* data set. 
+## Measurements Features in the "tidy" data set and summarized by Mean in the  *average* data set. 
 
 - *Features are normalized and bounded within [-1,1]*
 - *Feature prefix: t - time domain signals; f - frequency domain signals*
