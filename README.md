@@ -1,3 +1,4 @@
+
 # GettingandCleaningData
 Coursera Getting and Cleaning Data
 
@@ -29,6 +30,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 4. Appropriately labels the data set with descriptive variable names by replacing **Vx** column names with selected feature names.
 
-5. From the data set in step 4, creates a second, independent tidy data set called **average** with the average of each variable for each activity and each subject. Then exports table to a file called **average.txt**
+5. From the data set in step 4, creates a second, independent tidy data set called **average** with the average of each variable for each activity and each subject. Then exports table to a file called **average.txt**. 
 
-   Primary functions used: *group_by()*, *summarise_all()*, *mean()*, *write.table()*
+   Check criteria for classifying as tidy data set:
+   1. Each variable measured/calculated should be in one column
+   2. Each different observation of that variable should be in a different row
+   3. There should be one table for each “kind” of variable
+   
+   `A tibble: 180 x 81`
+    Rows: 30 subjects x 6 activities
+    Columns: 81 features (subject, activity, <79 measurements>)  -- pls refer to [Code Book](https://github.com/ajdscc/GettingandCleaningData/blob/master/CodeBook.md)
+    
+    Primary functions used: *group_by()*, *summarise_all()*, *mean()*, *write.table()*
